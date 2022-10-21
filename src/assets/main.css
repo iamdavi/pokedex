@@ -1,0 +1,22 @@
+@import "./css/base.css";
+@import "./css/header.css";
+
+.menu-item-flat:hover {
+  cursor: auto;
+  background-color: #fff;
+}
+
+.menu-item-flat i {
+  cursor: pointer;
+}
+
+#layout-display {
+  display: flex;
+  height: 100vh;
+}
+
+/* @media (max-width: 768px) {
+  #layout-display {
+    flex-direction: column;
+  }
+} */
