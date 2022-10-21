@@ -14,6 +14,7 @@ const fetchPokemons = () => {
   store.fetchPokemons(limit, counter * limit);
   counter++;
 };
+console.log("PokemonView eliminar");
 
 const getLastPathParam = (url) => {
   return [...new Set(url.split("/"))].pop();
